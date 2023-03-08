@@ -1,0 +1,74 @@
+*{
+    padding:2px;
+}
+#header,#footers{
+    background-color: orange;
+    width:98%;
+    height:fit-content;
+    padding:1%;
+}
+#nav{
+    background-color: yellow;
+}
+#header #nav,#footers #nav{
+    width: 98%;
+}
+#blackbox{
+    background-color: grey;
+    display:flex;
+    flex-direction: row;
+    padding: 1%;
+}
+#blackbox #nav{
+    width:10%;
+    height:70vh;
+    position:sticky;
+    left:5px;
+}
+#articles,#ARTICLE2{
+    height: 48%;
+    width: 98%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    margin:5px;
+    padding:5px;
+
+}
+
+#section,#section2{
+    background-color: gold;
+    width:80vw;
+    height:12vh;
+    margin:5px;
+}
+#articles{
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    padding: 5px;
+}
+
+#asides{
+    background-color: greenyellow ;
+    height:inherit;
+    width: 15%;
+}
+#articles #asides1{
+    height:25vh;
+    width:15%;
+    background-color: greenyellow ;
+}
+#ARTICLE2 #section2{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+#blankdiv{
+    width: 85%;
+    height: inherit;
+}
+#outdiv{
+    height: inherit;
+    width:99%;
+}
